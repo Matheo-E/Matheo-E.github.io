@@ -1,0 +1,40 @@
+/* =============================================
+   DESIGN TOKENS
+   ============================================= */
+
+:root {
+  /* Palette */
+  --bg:         #0b0b0e;
+  --ink:        #ececea;
+  --muted:      #8a8a92;
+  --accent:     #f7d750;
+  --accent-2:   #65a9f2;
+  --line:       rgba(236, 236, 234, 0.12);
+
+  /* Typography */
+  --font-body:  'Archivo', sans-serif;
+  --font-mono:  'JetBrains Mono', monospace;
+
+  /* Spacing scale */
+  --space-xs:   0.4rem;
+  --space-sm:   0.8rem;
+  --space-md:   1.6rem;
+  --space-lg:   2.4rem;
+  --space-xl:   3rem;
+  --space-2xl:  4rem;
+  --space-3xl:  7rem;
+
+  /* Layout */
+  --page-gutter: 3rem;
+  --max-content: 1400px;
+
+  /* Easing */
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+
+  /* Z-index layers */
+  --z-grain:    9998;
+  --z-cursor:   9999;
+  --z-float:    50;
+  --z-nav:      100;
+}

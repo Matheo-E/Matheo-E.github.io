@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>Mathéo EMMA — Développeur</title>
+  <meta name="description" content="Portfolio de Mathéo EMMA — ingénieur logiciel polyvalent spécialisé en systèmes, backend, réseau et développement technique de produits.">
+  <meta name="author" content="Mathéo EMMA">
+  <meta name="keywords" content="Mathéo EMMA, développeur, backend, systèmes, réseau, C++, Rust, Python, TypeScript, Epitech">
+  <meta name="theme-color" content="#0b0b0e">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://matheo-e.github.io/">
+  <meta property="og:title" content="Mathéo EMMA — Développeur">
+  <meta property="og:description" content="Ingénieur logiciel polyvalent — systèmes, backend, réseau, IA, cybersécurité.">
+  <meta property="og:image" content="https://matheo-e.github.io/assets/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://matheo-e.github.io/">
+  <meta property="twitter:title" content="Mathéo EMMA — Développeur">
+  <meta property="twitter:description" content="Ingénieur logiciel polyvalent — systèmes, backend, réseau, IA, cybersécurité.">
+  <meta property="twitter:image" content="https://matheo-e.github.io/assets/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='12' fill='%23f7d750'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='52' font-weight='700' text-anchor='middle' fill='%230b0b0e'%3EM%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,900;1,400&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <!-- Floating project image preview -->
+  <div class="float-img" id="floatImg" aria-hidden="true">
+    <img id="floatImgSrc" src="" alt="" loading="lazy">
+  </div>
+
+  <!-- ============================================ -->
+  <!-- NAVIGATION                                   -->
+  <!-- ============================================ -->
+  <nav class="site-nav" role="navigation" aria-label="Navigation principale">
+    <a href="#" class="logo" aria-label="Accueil">[<span>me</span>]</a>
+    <ul class="nav-links">
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================================ -->
+  <!-- HERO                                         -->
+  <!-- ============================================ -->
+  <header class="hero">
+    <div class="orb" aria-hidden="true"></div>
+
+    <p class="hero-tag">Développeur full-stack — La Possession, Réunion, France</p>
+
+    <h1 class="hero-title">
+      <span class="line">
+        <span class="word" style="animation-delay: 0.1s">Mathéo</span>
+      </span>
+      <span class="line">
+        <span class="word outline" style="animation-delay: 0.25s">EMMA</span>
+      </span>
+      <span class="line">
+        <span class="word" style="animation-delay: 0.4s">
+          Code <span class="accent-text">&amp;</span> Craft
+        </span>
+      </span>
+    </h1>
+
+    <div class="hero-foot">
+      <p class="hero-bio">
+        // Ingénieur logiciel polyvalent, spécialisé en systèmes, backend, réseau
+        et développement technique de produits. J'ai également de l'expérience
+        en IA, cybersécurité et applications full-stack. Étudiant Epitech —
+        disponible pour un stage de 4 à 5 mois entre Mars et Juillet.
+      </p>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- MARQUEE                                      -->
+  <!-- ============================================ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>
+        Python <i class="sep">◆</i>
+        TypeScript <i class="sep">◆</i>
+        Rust <i class="sep">◆</i>
+        C++ <i class="sep">◆</i>
+        FastAPI <i class="sep">◆</i>
+        Docker <i class="sep">◆</i>
+        React <i class="sep">◆</i>
+        PostgreSQL <i class="sep">◆</i>
+        &nbsp;
+      </span>
+      <span>
+        Python <i class="sep">◆</i>
+        TypeScript <i class="sep">◆</i>
+        Rust <i class="sep">◆</i>
+        C++ <i class="sep">◆</i>
+        FastAPI <i class="sep">◆</i>
+        Docker <i class="sep">◆</i>
+        React <i class="sep">◆</i>
+        PostgreSQL <i class="sep">◆</i>
+        &nbsp;
+      </span>
+    </div>
+  </div>
+
+  <!-- ============================================ -->
+  <!-- PROJECTS                                     -->
+  <!-- ============================================ -->
+  <!--
+  -->
+  <section class="projects" id="projets" aria-labelledby="projets-heading">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <h2 id="projets-heading" class="sec-title">Projets sélectionnés</h2>
+    </div>
+
+    <article>
+      <a class="proj reveal"
+         href="https://github.com/Matheo-E/Yana-Bot"
+         target="_blank"
+         rel="noopener noreferrer"
+         data-img="assets/yana-bot.png">
+        <span class="proj-index">/01</span>
+        <span class="proj-name">Yana-Bot</span>
+        <span class="proj-meta">
+          Outil de scouting Pokémon
+          <br>Python · FastAPI · Docker
+        </span>
+        <span class="proj-arrow" aria-hidden="true">→</span>
+      </a>
+    </article>
+
+    <article>
+      <a class="proj reveal"
+         href="#"
+         data-img="assets/dashboard.png">
+        <span class="proj-index">/02</span>
+        <span class="proj-name">Dashboard</span>
+        <span class="proj-meta">
+          Web dashboard PGE3
+          <br>TypeScript · API · 2026
+        </span>
+        <span class="proj-arrow" aria-hidden="true">→</span>
+      </a>
+    </article>
+
+    <article>
+      <a class="proj reveal"
+         href="#"
+         data-img="assets/mypgp.jpeg">
+        <span class="proj-index">/03</span>
+        <span class="proj-name">MyPGP</span>
+        <span class="proj-meta">
+          Cryptographie appliquée
+          <br>Rust · PGE3 · 2026
+        </span>
+        <span class="proj-arrow" aria-hidden="true">→</span>
+      </a>
+    </article>
+
+    <article>
+      <a class="proj reveal"
+         href="https://github.com/Raphaeldumon/Zappy"
+         data-img="assets/zappy.png">
+        <span class="proj-index">/04</span>
+        <span class="proj-name">Zappy</span>
+        <span class="proj-meta">
+          Simulation 3D multi-agents
+          <br>C++ · Networking · PGE2 · 2025
+        </span>
+        <span class="proj-arrow" aria-hidden="true">→</span>
+      </a>
+    </article>
+
+    <article>
+      <a class="proj reveal"
+         href="https://github.com/cassydjye/RAYTRACER_CI"
+         data-img="assets/raytracer.png">
+        <span class="proj-index">/05</span>
+        <span class="proj-name">Raytracer</span>
+        <span class="proj-meta">
+          Moteur de rendu 3D
+          <br>C++ · PGE2 · 2025
+        </span>
+        <span class="proj-arrow" aria-hidden="true">→</span>
+      </a>
+    </article>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- ABOUT                                        -->
+  <!-- ============================================ -->
+  <section class="about" id="apropos" aria-labelledby="apropos-heading">
+    <div class="about-left reveal">
+      <h2 id="apropos-heading" class="visually-hidden">À propos</h2>
+      <p>
+        Ingénieur logiciel polyvalent, spécialisé en <em>systèmes</em>,
+        <em>backend</em>, <em>réseau</em> et développement technique de produits.
+        J'ai également de l'expérience en <em>IA</em>, <em>cybersécurité</em>
+        et applications <em>full-stack</em>.
+      </p>
+      <span class="mono">
+        $ whoami<br>
+        → dev full-stack &amp; système<br>
+        → [X]+ projets livrés<br>
+        → étudiant Epitech Réunion, remote-friendly<br>
+        → café : indispensable
+      </span>
+    </div>
+
+    <div class="stats reveal" aria-label="Statistiques">
+      <div class="stat">
+        <b><i>[X]</i>+</b>
+        <span>Projets livrés</span>
+      </div>
+      <div class="stat">
+        <b><i>[X]</i> ans</b>
+        <span>D'expérience</span>
+      </div>
+      <div class="stat">
+        <b><i>[X]</i>k</b>
+        <span>Lignes de code écrites</span>
+      </div>
+      <div class="stat">
+        <b>99<i>%</i></b>
+        <span>Tests qui passent (enfin presque)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- STACK                                        -->
+  <!-- ============================================ -->
+  <section class="stack" id="stack" aria-labelledby="stack-heading">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <h2 id="stack-heading" class="sec-title">Stack &amp; outils</h2>
+    </div>
+
+    <ul class="stack-list">
+      <li class="stack-item reveal">
+        Python / FastAPI
+        <span class="lvl">expert</span>
+      </li>
+      <li class="stack-item reveal">
+        TypeScript / React
+        <span class="lvl">avancé</span>
+      </li>
+      <li class="stack-item reveal">
+        C++
+        <span class="lvl">avancé · système &amp; 3D</span>
+      </li>
+      <li class="stack-item reveal">
+        Rust
+        <span class="lvl">intermédiaire · crypto &amp; perf</span>
+      </li>
+      <li class="stack-item reveal">
+        Docker / CI-CD
+        <span class="lvl">avancé</span>
+      </li>
+      <li class="stack-item reveal">
+        PostgreSQL / Redis
+        <span class="lvl">avancé</span>
+      </li>
+      <li class="stack-item reveal">
+        Git / Linux
+        <span class="lvl">quotidien</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- CONTACT                                      -->
+  <!-- ============================================ -->
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <div class="reveal">
+      <p class="sec-num" style="margin-bottom: 2rem">03</p>
+      <h2 id="contact-heading">
+        Un projet<br>
+        en tête <span class="accent-text">?</span>
+      </h2>
+      <a class="mail" href="mailto:matheo.emma@epitech.eu">
+        matheo.emma@epitech.eu ↗
+      </a>
+      <div class="socials">
+        <a href="https://github.com/Matheo-E" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/matheo-emma/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="#" download>CV (PDF) ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- FOOTER                                       -->
+  <!-- ============================================ -->
+  <footer class="site-footer">
+    <span>© 2026 Mathéo EMMA — tous droits réservés</span>
+    <span>fait avec [☕] et [beaucoup de] commits</span>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/cursor.js" defer></script>
+  <script src="js/scrollReveal.js" defer></script>
+  <script src="js/projectHover.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log

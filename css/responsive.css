@@ -1,0 +1,75 @@
+/* =============================================
+   RESPONSIVE
+   ============================================= */
+
+/* Tablet & below */
+@media (max-width: 820px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+  :root {
+    --page-gutter: 1.4rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    padding-bottom: var(--space-lg);
+  }
+
+  .proj {
+    grid-template-columns: 50px 1fr;
+  }
+
+  .proj-meta {
+    display: none;
+  }
+
+  .stack-item .lvl {
+    display: none;
+  }
+
+  .float-img {
+    display: none;
+  }
+
+  .orb {
+    width: 280px;
+    height: 280px;
+    opacity: 0.6;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: clamp(2.8rem, 15vw, 4rem);
+  }
+
+  .sec-title {
+    font-size: clamp(1.6rem, 8vw, 2.4rem);
+  }
+
+  .proj-name {
+    font-size: clamp(1.4rem, 6vw, 2rem);
+  }
+
+  .contact h2 {
+    font-size: clamp(2rem, 12vw, 3.5rem);
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+}
