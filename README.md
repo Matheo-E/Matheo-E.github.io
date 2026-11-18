@@ -21,11 +21,14 @@ portfolio/
 │   ├── scrollReveal.js     # Animations au scroll (IntersectionObserver)
 │   └── projectHover.js     # Images flottantes au survol des projets
 └── assets/
-    ├── zappy.png           # Screenshot du projet Zappy
-    ├── yana-bot.png        # Placeholder Yana-Bot
-    ├── dashboard.png       # Placeholder Dashboard
-    ├── mypgp.png           # Placeholder MyPGP
-    └── raytracer.png       # Placeholder Raytracer
+    ├── tempi.png           # Capture de Tempi (démo locale)
+    ├── yana-bot.png        # Capture de Yana-Bot (formulaire de scouting)
+    ├── zappy.png           # Capture de Zappy
+    ├── raytracer.png       # Rendu du Raytracer
+    ├── mypgp.jpeg          # Visuel MyPGP
+    ├── og-image.png        # Aperçu des liens partagés (1200 × 630)
+    ├── CV_Matheo_EMMA_FR.pdf
+    └── CV_Matheo_EMMA_EN.pdf
 ```
 
 ---
@@ -70,14 +73,10 @@ Chaque projet possède un attribut `data-img` dans `index.html` :
 
 ---
 
-## Remplacer les placeholders
+## Mettre à jour le CV
 
-| Élément | Emplacement |
-|---|---|
-| Email | Section Contact → `<a class="mail" href="mailto:...">` |
-| LinkedIn / X / CV | Section Contact → `<div class="socials">` |
-| Stats chiffrées | Section À propos → `.stat b` |
-| Liens GitHub projets | Attributs `href` des `.proj` |
+Les PDF de `assets/` sont générés depuis la source Typst du CV (`cv.typ`, versions FR et EN).
+Remplace simplement les deux fichiers en gardant les mêmes noms.
 
 ---
 
